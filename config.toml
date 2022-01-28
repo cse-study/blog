@@ -1,0 +1,63 @@
+baseURL = 'http://example.org/'
+title = "&#128640; &nbsp; 유니스트 스터디 그룹"
+theme = "hugo-notepadium"
+copyright = "©2019 Notepadium."
+
+languageCode = "zh-cn"
+hasCJKLanguage = true
+
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = "XXX"
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+[markup.highlight]
+codeFences = true
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true  # enable raw HTML in Markdown
+
+[params]
+style = "light"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
+logo = "/img/logo.png"
+slogan = ""
+license = ""  # CC License
+fullRss = false # Puts entire HTML post into rss 'description' tag. If unset, default is false.
+ipv6ready = true # Show IPV6Ready logo on footer.
+
+[params.comments]
+enable = true  # En/Disable comments globally, default: false. You can always enable comments on per page.
+
+[params.comments.utterances]
+repo = "cse-study/cse-study.github.io" # enable comments with [utteranc.es](https://utteranc.es/)
+
+[params.nav]
+showCategories = false       # /categories/
+showTags = false            # /tags/
+
+# custom navigation items
+[[params.nav.custom]]
+title = "Weekly AI"
+url = "/ai"
+
+[[params.nav.custom]]
+title = "Algorithm"
+url = "/algo"
+
+# enable JS highlight
+[params.syntax]
+use = "hljs"  # 1. prismjs 2. hljs 3. none
+theme = "dracula"
+darkTheme = "xcode-dark"  # apply this theme in dark mode
+
+[params.math]
+enable = true  # true means globally, or on a per page set "math = true"
+use = "mathjax"  # "mathjax" or "katex"
+
+# [params.assets]
+# css = ["css/font.css", "css/color.css", "css/layout.scss"]  # *.css/scss/sass
