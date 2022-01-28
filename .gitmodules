@@ -1,7 +1,3 @@
 [submodule "themes/hugo-notepadium"]
 	path = themes/hugo-notepadium
 	url = https://github.com/cntrump/hugo-notepadium.git
-[submodule "cse-study.github.io"]
-	path = cse-study.github.io
-	url = https://github.com/cse-study/cse-study.github.io.git
-	branch = main
