@@ -1,0 +1,15 @@
+{{- $nav := . -}}
+{{- if or $nav.showCategories $nav.showTags $nav.custom -}}
+<div class="nav wrap"><nav class="nav">
+    {{- if $nav.showCategories -}}
+        <a class="nav item" href="{{- `/categories/` | relLangURL -}}">{{- T "Categories" -}}</a>
+    {{- end -}}
+    {{- if $nav.showTags -}}
+        <a class="nav item" href="{{- `/tags/` | relLangURL -}}">{{- T "Tags" -}}</a>
+    {{- end -}}
+
+    <a class="nav item" href="{{- `/ai/` | relURL -}}"><span class="iconfont icon-ai"></span>&nbsp;Weekly AI</a>
+    <a class="nav item" href="{{- `/algo/` | relURL -}}"><span class="iconfont icon-algo"></span>&nbsp;Algorithm</a>
+            
+</nav></div>
+{{- end -}}
