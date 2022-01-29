@@ -1,8 +1,8 @@
 <section id="header">
-    <div class="header wrap"><span class="header left-side"><a class="site home" href="{{- `/main` | relLangURL -}}">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="{{- `/index/home` | relLangURL -}}">
                 {{- $logo := site.Params.logo -}}
                 {{- if $logo -}}
-                <img class="site logo" src="{{- $logo | relURL -}}" alt />
+                <img class="site logo" src="/assets/img/logo.png" />
                 {{- end -}}
                 <span class="site name">{{- site.Title | safeHTML -}}</span></a></span>
         <span class="header right-side">

@@ -1,5 +1,5 @@
 {{- if or (eq .Params.comments true) (and (ne .Params.comments false) (eq site.Params.comments.enable true)) -}}
-    {{- if ne .File.Path "main.md" -}}
+    {{- if and (ne .File.Path "index/home.md") (ne .File.Path "index/notice.md") -}}
         <section class="article discussion">
             <script src="https://utteranc.es/client.js"
                 repo="cse-study/cse-study.github.io"

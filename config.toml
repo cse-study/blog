@@ -1,5 +1,5 @@
-baseURL = 'http://example.org/'
-title = "&#128640; &nbsp; 유니스트 스터디 그룹"
+baseURL = 'https://cse-study.github.io/'
+title = "CS Study Group"
 theme = "hugo-notepadium"
 copyright = "©2019 Notepadium."
 
@@ -24,7 +24,7 @@ unsafe = true  # enable raw HTML in Markdown
 [params]
 style = "light"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
 dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
-logo = "/img/logo.png"
+logo = "img/logo.png"
 slogan = ""
 license = ""  # CC License
 fullRss = false # Puts entire HTML post into rss 'description' tag. If unset, default is false.
@@ -48,6 +48,10 @@ url = "/ai"
 [[params.nav.custom]]
 title = "Algorithm"
 url = "/algo"
+
+[[params.nav.custom]]
+title = "Notice"
+url = "/notice"
 
 # enable JS highlight
 [params.syntax]
