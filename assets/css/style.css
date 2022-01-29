@@ -281,11 +281,11 @@ b {
 
 .header.left-side {
   float: left;
-  margin-top: 5px;
 }
 
 .header.right-side {
   float: right;
+  margin-top: 7px;
 }
 
 .site.home:hover {
@@ -317,7 +317,11 @@ b {
 
 .nav.item {
   display: inline-block;
-  padding: 4px 6px;
+  padding: 2px 6px;
+  background-color: #fff2e8;
+  color: #fa541c;
+  margin-left: 5px;
+  border-radius: .2em;
 }
 
 .footer-wrap {
