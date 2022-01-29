@@ -1,7 +1,14 @@
 {{- define "main" -}}
 {{- $paginator := .Paginator -}}
+{{- $target := print "/" .Section -}}
 
-<section class="article header"><h1>{{- .Title -}}</h1></section>
+<section class="article header">
+    {{- range $item := .Site.Params.nav.custom -}}
+        {{- if eq $item.url $target -}} 
+            <h1> {{- $item.title -}} </h1>
+        {{- end -}}
+    {{- end -}}
+</section>
 {{- partial "section-body.html" . -}}
 <!-- Ranges through content/posts/*.md -->
 
