@@ -1,6 +1,5 @@
----
-title: "Hello &#128075;"
-draft: true
----
++++
+title = "Hello &#128075;"
++++
 
 메인 페이지 입니다.
