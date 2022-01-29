@@ -5,3 +5,6 @@
 	path = public
 	url = https://github.com/cse-study/cse-study.github.io.git
 	branch = main
+[submodule "content/ai"]
+	path = content/ai
+	url = https://github.com/cse-study/weekly-ai.git
