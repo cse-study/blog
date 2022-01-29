@@ -47,7 +47,7 @@ url = "/ai"
 
 [[params.nav.custom]]
 title = "Algorithm"
-url = "/algo"
+url = "/algorithm"
 
 [[params.nav.custom]]
 title = "Notice"

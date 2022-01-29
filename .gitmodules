@@ -8,3 +8,7 @@
 [submodule "content/ai"]
 	path = content/ai
 	url = https://github.com/cse-study/weekly-ai.git
+[submodule "content/algorithm"]
+	path = content/algorithm
+	url = git@github.com:cse-study/algorithm.git
+	branch = main
