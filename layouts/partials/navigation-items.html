@@ -1,16 +1,14 @@
-{{- $nav := . -}}
-{{- if or $nav.showCategories $nav.showTags $nav.custom -}}
-<div class="nav wrap"><nav class="nav">
-    {{- if $nav.showCategories -}}
-        <a class="nav item" href="{{- `/categories/` | relLangURL -}}">{{- T "Categories" -}}</a>
-    {{- end -}}
-    {{- if $nav.showTags -}}
-        <a class="nav item" href="{{- `/tags/` | relLangURL -}}">{{- T "Tags" -}}</a>
-    {{- end -}}
+{{- $nav := . -}} {{- if or $nav.showCategories $nav.showTags $nav.custom -}}
+<div class="nav wrap">
+    <nav class="nav">
+        {{- if $nav.showCategories -}}
+        <a class="nav item" href="{{- `/categories/` | relLangURL -}}">{{- T "Categories" -}}</a> {{- end -}} {{- if $nav.showTags -}}
+        <a class="nav item" href="{{- `/tags/` | relLangURL -}}">{{- T "Tags" -}}</a> {{- end -}}
 
-    <a class="nav item" href="{{- `/ai/` | relURL -}}"><span class="iconfont icon-ai"></span>Weekly AI</a>
-    <a class="nav item" href="{{- `/algo/` | relURL -}}"><span class="iconfont icon-algo"></span>Algorithm</a>
-    <a class="nav item" href="{{- `/index/notice/` | relURL -}}"><span class="iconfont icon-algo"></span>Notice</a>
-            
-</nav></div>
+        <a class="nav item" href="{{- `/ai/` | relURL -}}"><span class="iconfont icon-ai"></span>Weekly AI</a>
+        <a class="nav item" href="{{- `/algo/` | relURL -}}"><span class="iconfont icon-algo"></span>Algorithm</a>
+        <a class="nav item" href="{{- `/main/notice/` | relURL -}}"><span class="iconfont icon-algo"></span>Notice</a>
+
+    </nav>
+</div>
 {{- end -}}

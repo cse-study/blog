@@ -1,13 +1,6 @@
-{{- if or (eq .Params.comments true) (and (ne .Params.comments false) (eq site.Params.comments.enable true)) -}}
-    {{- if and (ne .File.Path "index/home.md") (ne .File.Path "index/notice.md") -}}
-        <section class="article discussion">
-            <script src="https://utteranc.es/client.js"
-                repo="cse-study/cse-study.github.io"
-                issue-term="pathname"
-                theme="github-light"
-                crossorigin="anonymous"
-                async>
-            </script>
-        </section>
-    {{- end -}}
-{{- end -}}
+{{- if or (eq .Params.comments true) (and (ne .Params.comments false) (eq site.Params.comments.enable true)) -}} {{- if and (ne .File.Path "main/home.md") (ne .File.Path "main/notice.md") -}}
+<section class="article discussion">
+    <script src="https://utteranc.es/client.js" repo="cse-study/cse-study.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async>
+    </script>
+</section>
+{{- end -}} {{- end -}}
