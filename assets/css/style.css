@@ -212,6 +212,7 @@ acronym {
 strong,
 b {
     color: rgba(29, 43, 76, .85);
+    font-weight: bold;
 }
 
 .image-container,
