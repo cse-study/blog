@@ -441,7 +441,7 @@ b {
 }
 
 .article.date {
-    margin-top: 24px;
+    margin-top: 18px;
 }
 
 .tag,
@@ -469,11 +469,15 @@ b {
 
 .article.labels,
 .article.license,
-.article.author,
 .article.navigation,
 .article.discussion,
 .article.share {
     margin-top: 32px;
+}
+
+.article.author {
+    display: flex;
+    margin: 24px 0px;
 }
 
 .article.discussion {
@@ -501,38 +505,45 @@ b {
     border: 1px solid #b7d8ef;
 }
 
-.article.author {
-    text-align: center;
+.article.author .author-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
-.article.author>* {
-    margin-top: 16px;
+.article.author .author-left,
+.article.author .author-right {
+    margin-right: 12px;
 }
 
 .article.author .avatar {
-    display: block;
-    max-width: 130px;
-    margin: auto;
-    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
 }
 
 .article.author .name {
-    font-size: 1.25em;
+    font-size: 14px;
+    color: #3c4043;
+    font-family: 'Google Sans';
+    font-weight: 500;
+    height: 20px;
+    letter-spacing: 0.25px;
+    line-height: 28px;
 }
 
-.article.author .bio {
-    color: #586069;
+.article.author .item-email {
+    color: #5f6368;
+    font-size: 12px;
+    height: 16px;
 }
 
-.article.author .details .item {
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.article.author .details .item:hover {
+.article.author .item-email:hover {
     text-decoration: none;
-    opacity: .5;
 }
 
 .slogan,
