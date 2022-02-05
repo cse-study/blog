@@ -437,7 +437,7 @@ b {
 .article.header {
     text-align: center;
     margin-top: 4px;
-    margin-bottom: 24px;
+    margin-bottom: 18px;
 }
 
 .article.date {
@@ -477,7 +477,7 @@ b {
 
 .article.author {
     display: flex;
-    margin: 24px 0px;
+    margin: 0px 0px 36px 0px;
 }
 
 .article.discussion {
