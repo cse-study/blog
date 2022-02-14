@@ -90,19 +90,19 @@ h2 {
 }
 
 h3 {
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 h4 {
-    font-size: 1em;
+    font-size: 1.25em;
 }
 
 h5 {
-    font-size: .85em;
+    font-size: 1em;
 }
 
 h6 {
-    font-size: .7em;
+    font-size: .85em;
 }
 
 blockquote,
@@ -588,7 +588,7 @@ b {
 }
 
 .article-container {
-    padding: 32px;
+    padding: 50px;
     border-radius: 6px;
     box-shadow: 0 12px 16px 0 rgba(29, 43, 76, .12);
 }

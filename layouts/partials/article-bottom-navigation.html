@@ -1,4 +1,4 @@
-{{- if and (not (eq .Params.single true)) (or .PrevInSection .NextInSection) -}} {{- if and (and (ne .File.Path "home.md") (ne .File.Path "notice.md")) (ne .File.Path "shortcuts.md") -}}
+{{- if and (not (eq .Params.single true)) (or .PrevInSection .NextInSection) -}} {{- if and (and (ne .File.Path "home.md") (ne .File.Path "help.md")) -}}
 <section class="article navigation">
     {{- with .NextInSection -}} {{- $title := .Title | safeHTML -}} {{- if $title -}}
     <p><a class="link" href="{{- .RelPermalink -}}"><span class="iconfont icon-article"></span>{{- $title -}}</a></p>{{- end -}} {{- end -}} {{- with .PrevInSection -}} {{- $title := .Title | safeHTML -}} {{- if $title -}}

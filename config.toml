@@ -50,8 +50,8 @@ title = "Algorithm"
 url = "/algorithm"
 
 [[params.nav.custom]]
-title = "Notice"
-url = "/notice"
+title = "Help"
+url = "/help"
 
 # enable JS highlight
 [params.syntax]
