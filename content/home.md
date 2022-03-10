@@ -22,3 +22,10 @@ title = "Hello 👋"
 - 개인 목표는 알고리즘/코딩 테스트 관련 주간 목표를 개별적으로 설정하고 수행합니다(e.g. 알고리즘 글 포스팅, 코딩 인터뷰 문/답, 추가 알고리즘 사이트 문제 풀이, 등). 개인 목표의 결과물이 글의 형태라면 블로그 Algorithm 카테고리에 포스팅 해주시면 좋습니다.
 - 더욱 자세한 내용은 [링크](https://github.com/cse-study/algorithm-code)를 참고해주세요.
 
+### Contributors
+
+- 🚀 [yuhodots](https://github.com/yuhodots): 갓생을 꿈꾸는 대학원생입니다.
+- 🐢 [jiun0](https://github.com/jiun0): Bandit 알고리즘과 추천 시스템을 연구하고 있는 대학원생입니다. 코딩조아.
+- 🙂 [bwmelon97](https://github.com/bwmelon97): 졸업을 앞둔 복학생입니다. 원거리 딜러(AD carry)를 전문으로 하고 있습니다.
+- 👻 [minjae-lulu](https://github.com/minjae-lulu): 동형암호를 공부하고 있는 학생입니다.
+
